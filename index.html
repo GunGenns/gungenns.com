@@ -3,12 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join Gungens Minecraft Server for an epic Minecraft experience.">
+    <meta property="og:title" content="Gungens Minecraft Server">
+    <meta property="og:description" content="Join Gungens Minecraft Server for an epic Minecraft experience.">
+    <meta property="og:image" content=""> <!-- add image link here -->
+    <meta property="og:url" content=""> <!-- add website URL here -->
     <title>Gungens Minecraft Server</title>
     <style>
       body {
         background-image: linear-gradient(to right, #7579ff, #b224ef);
         height: 100vh;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
       }
@@ -49,6 +55,10 @@
         justify-content: center;
         align-items: center;
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
       }
 
       header h2 {
@@ -56,6 +66,12 @@
         font-size: 24px;
         font-weight: bold;
         margin: 0;
+      }
+
+      @media (max-width: 500px) {
+        .container {
+          width: 90%;
+        }
       }
     </style>
   </head>
